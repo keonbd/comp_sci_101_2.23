@@ -1,0 +1,13 @@
+# Enter solution here
+import math
+age = input('What is your age ? :')
+age = int(age)
+Yes = 'Yes'
+print()
+pets = input('Do you have pets? :')
+deposit = 100
+deposit = int(deposit)
+print()
+if (age < 24) or (pets == Yes):
+    deposit = deposit + 50
+print('The deposit amount is $', deposit)
